@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-35 0 530 530">
+  <defs>
+    <linearGradient id="t" x1="0" y1="0" x2="0" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6fcabf"/>
+      <stop offset="1" stop-color="#22868b"/>
+    </linearGradient>
+    <linearGradient id="g" x1="0" y1="405" x2="0" y2="515" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7b8487"/>
+      <stop offset="1" stop-color="#555e61"/>
+    </linearGradient>
+    <clipPath id="bulb">
+      <path d="M96 288C96 340 118 372 150 398H335C395 338 432 255 432 120V0H96Z"/>
+    </clipPath>
+  </defs>
+  <g fill="url(#t)">
+    <path d="M8 258C100 225 190 170 270 118L286 140C200 196 110 240 8 258Z"/>
+    <path d="M110 262C195 236 285 162 362 52L412 86C330 185 230 240 110 262Z"/>
+    <path d="M447 12L330 56L428 116Z"/>
+    <g clip-path="url(#bulb)">
+      <path d="M96 298H160V400H96Z"/>
+      <path d="M185 262L250 250V400H185Z"/>
+      <path d="M275 215L336 190V400H275Z"/>
+      <path d="M360 170L432 132V400H360Z"/>
+    </g>
+  </g>
+  <g fill="url(#g)">
+    <rect x="148" y="403" width="184" height="24" rx="12"/>
+    <rect x="152" y="438" width="176" height="24" rx="12"/>
+    <path d="M182 472H302C302 498 274 516 242 516S182 498 182 472Z"/>
+  </g>
+</svg>
